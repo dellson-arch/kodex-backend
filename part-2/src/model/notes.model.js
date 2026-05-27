@@ -3,8 +3,6 @@ let mongoose = require('mongoose')
 
 let notesSchema = new mongoose.Schema(
 
-let userSchema = new mongoose.Schema(
-
     {
         title : String,
         description : String
